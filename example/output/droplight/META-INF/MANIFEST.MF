@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Specification-Title: Droplight
+Specification-Vendor: banzetta
+Specification-Version: 1.0.5
+Implementation-Title: Droplight
+Implementation-Version: 1.0.5
+Implementation-Vendor: banzetta
+Implementation-Timestamp: 2022-11-12T13:48:37-0800
+Fabric-Gradle-Version: 7.3
+Fabric-Loom-Version: 1.0.11
+Fabric-Mixin-Compile-Extensions-Version: 0.5.0
+Fabric-Minecraft-Version: 1.19.2
+Fabric-Tiny-Remapper-Version: 0.8.5
+Fabric-Loader-Version: 0.14.9
+Fabric-Mixin-Version: 0.11.4+mixin.0.8.5
+Fabric-Mixin-Group: net.fabricmc
+Fabric-Mapping-Namespace: intermediary
+

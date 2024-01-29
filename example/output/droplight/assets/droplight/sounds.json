@@ -1,0 +1,193 @@
+{
+	"item.misc.legendary_hum": {
+		"sounds": [
+			{
+				"name": "droplight:item/misc/beam_hum",
+				"volume": 0.6
+			}
+		]
+	},
+	"item.misc.drop_legendary": {
+		"sounds": [
+			{
+				"name": "droplight:item/misc/drop_legendary",
+				"volume": 0.9,
+				"attenuation_distance": 18
+			}
+		]
+	},
+	"item.misc.drop_light": {
+		"sounds": [
+			{
+				"name": "droplight:item/misc/drop_soft1",
+				"volume": 1.25
+			},
+			{
+				"name": "droplight:item/misc/drop_soft2",
+				"volume": 1.25
+			},
+			{
+				"name": "droplight:item/misc/drop_soft3",
+				"volume": 1.15
+			},
+			{
+				"name": "droplight:item/misc/drop_soft4",
+				"volume": 1.15
+			}
+		]
+	},
+	"item.misc.drop_medium_soft": {
+		"sounds": [
+			{
+				"name": "droplight:item/misc/drop_medium1",
+				"volume": 0.9
+			},
+			{
+				"name": "droplight:item/misc/drop_medium2",
+				"volume": 0.9
+			}
+		]
+	},
+	"item.misc.drop_medium_hard": {
+		"sounds": [
+			{
+				"name": "droplight:item/misc/drop_medium3",
+				"volume": 0.9
+			},
+			{
+				"name": "droplight:item/misc/drop_heavy1",
+				"volume": 0.9
+			}
+		]
+	},
+	"item.misc.drop_heavy": {
+		"sounds": [
+			{
+				"name": "droplight:item/misc/drop_heavy1",
+				"volume": 0.9
+			},
+			{
+				"name": "droplight:item/misc/drop_heavy2",
+				"volume": 0.9
+			}
+		]
+	},
+	"item.misc.drop_tool": {
+		"sounds": [
+			{
+				"name": "droplight:item/misc/drop_misc5",
+				"volume": 0.75
+			}
+		]
+	},
+	"item.misc.drop_block": {
+		"sounds": [
+			{
+				"name": "droplight:item/misc/drop_misc4",
+				"volume": 0.85
+			}
+		]
+	},
+	"item.misc.drop_wood": {
+		"sounds": [
+			{
+				"name": "droplight:item/misc/drop_misc6",
+				"volume": 0.85
+			},
+			{
+				"name": "droplight:item/misc/drop_wood1",
+				"volume": 0.85,
+				"pitch": 1.1
+			}
+		]
+	},
+	"item.misc.drop_gem": {
+		"sounds": [
+			{
+				"name": "droplight:item/misc/drop_gem1",
+				"volume": 0.75,
+				"pitch": 0.95
+			},
+			{
+				"name": "droplight:item/misc/drop_gem2",
+				"volume": 0.8,
+				"pitch": 1.05
+			}
+		]
+	},
+	"item.misc.drop_glass": {
+		"sounds": [
+			{
+				"name": "droplight:item/misc/drop_glass1",
+				"volume": 0.9
+			},
+			{
+				"name": "droplight:item/misc/drop_glass2",
+				"volume": 0.75,
+				"pitch": 1.1
+			},
+			{
+				"name": "droplight:item/misc/drop_glass3",
+				"volume": 0.75,
+				"pitch": 0.9
+			}
+		]
+	},
+	"item.misc.drop_wet": {
+		"sounds": [
+			{
+				"name": "droplight:item/misc/drop_wet1",
+				"volume": 0.75
+			},
+			{
+				"name": "droplight:item/misc/drop_wet2",
+				"volume": 0.75,
+				"pitch": 0.9
+			}
+		]
+	},
+	"item.misc.swish": {
+		"sounds": [
+			{
+				"name": "droplight:item/misc/swish1",
+				"volume": 1.15
+			},
+			{
+				"name": "droplight:item/misc/swish2",
+				"volume": 1.15
+			},
+			{
+				"name": "droplight:item/misc/swish3",
+				"volume": 1.15
+			},
+			{
+				"name": "droplight:item/misc/swish4",
+				"volume": 1.15
+			}
+		]
+	},
+	"item.misc.drop_misc1": {
+		"sounds": [
+			{
+				"name": "droplight:item/misc/drop_misc1",
+				"volume": 0.85
+			}
+		]
+	},
+	"item.misc.drop_misc2": {
+		"sounds": [
+			{
+				"name": "droplight:item/misc/drop_misc2",
+				"volume": 0.85
+			}
+		]
+	},
+	"item.misc.drop_misc3": {
+		"sounds": [
+			{
+				"name": "droplight:item/misc/drop_misc3",
+				"volume": 0.85
+			}
+		]
+	}
+}

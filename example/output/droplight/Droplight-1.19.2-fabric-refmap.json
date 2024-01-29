@@ -1,0 +1,50 @@
+{
+  "mappings": {
+    "dev/banzetta/droplight/mixin/client/LevelRendererMixin": {
+      "renderLevel": "Lnet/minecraft/class_761;method_22710(Lnet/minecraft/class_4587;FJZLnet/minecraft/class_4184;Lnet/minecraft/class_757;Lnet/minecraft/class_765;Lnet/minecraft/class_1159;)V",
+      "Lnet/minecraft/client/renderer/LevelRenderer;renderSnowAndRain(Lnet/minecraft/client/renderer/LightTexture;FDDD)V": "Lnet/minecraft/class_761;method_22714(Lnet/minecraft/class_765;FDDD)V"
+    },
+    "dev/banzetta/droplight/mixin/client/EntityRendererMixin": {
+      "render": "Lnet/minecraft/class_897;method_3936(Lnet/minecraft/class_1297;FFLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V"
+    },
+    "dev/banzetta/droplight/mixin/client/ItemEntityRendererMixin": {
+      "render": "Lnet/minecraft/class_916;method_3996(Lnet/minecraft/class_1542;FFLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V",
+      "Lcom/mojang/blaze3d/vertex/PoseStack;mulPose(Lcom/mojang/math/Quaternion;)V": "Lnet/minecraft/class_4587;method_22907(Lnet/minecraft/class_1158;)V"
+    },
+    "dev/banzetta/droplight/mixin/client/ParticleEngineMixin": {
+      "render": "Lnet/minecraft/class_702;method_3049(Lnet/minecraft/class_4587;Lnet/minecraft/class_4597$class_4598;Lnet/minecraft/class_765;Lnet/minecraft/class_4184;F)V"
+    },
+    "dev/banzetta/droplight/mixin/client/EntityMixin": {
+      "checkFallDamage": "Lnet/minecraft/class_1297;method_5623(DZLnet/minecraft/class_2680;Lnet/minecraft/class_2338;)V"
+    },
+    "dev/banzetta/droplight/mixin/EntityMixin": {
+      "getBoundingBoxForCulling": "Lnet/minecraft/class_1297;method_5830()Lnet/minecraft/class_238;",
+      "spawnAtLocation(Lnet/minecraft/world/item/ItemStack;F)Lnet/minecraft/world/entity/item/ItemEntity;": "Lnet/minecraft/class_1297;method_5699(Lnet/minecraft/class_1799;F)Lnet/minecraft/class_1542;"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "dev/banzetta/droplight/mixin/client/LevelRendererMixin": {
+        "renderLevel": "Lnet/minecraft/class_761;method_22710(Lnet/minecraft/class_4587;FJZLnet/minecraft/class_4184;Lnet/minecraft/class_757;Lnet/minecraft/class_765;Lnet/minecraft/class_1159;)V",
+        "Lnet/minecraft/client/renderer/LevelRenderer;renderSnowAndRain(Lnet/minecraft/client/renderer/LightTexture;FDDD)V": "Lnet/minecraft/class_761;method_22714(Lnet/minecraft/class_765;FDDD)V"
+      },
+      "dev/banzetta/droplight/mixin/client/EntityRendererMixin": {
+        "render": "Lnet/minecraft/class_897;method_3936(Lnet/minecraft/class_1297;FFLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V"
+      },
+      "dev/banzetta/droplight/mixin/client/ItemEntityRendererMixin": {
+        "render": "Lnet/minecraft/class_916;method_3996(Lnet/minecraft/class_1542;FFLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V",
+        "Lcom/mojang/blaze3d/vertex/PoseStack;mulPose(Lcom/mojang/math/Quaternion;)V": "Lnet/minecraft/class_4587;method_22907(Lnet/minecraft/class_1158;)V"
+      },
+      "dev/banzetta/droplight/mixin/client/ParticleEngineMixin": {
+        "render": "Lnet/minecraft/class_702;method_3049(Lnet/minecraft/class_4587;Lnet/minecraft/class_4597$class_4598;Lnet/minecraft/class_765;Lnet/minecraft/class_4184;F)V"
+      },
+      "dev/banzetta/droplight/mixin/client/EntityMixin": {
+        "checkFallDamage": "Lnet/minecraft/class_1297;method_5623(DZLnet/minecraft/class_2680;Lnet/minecraft/class_2338;)V"
+      },
+      "dev/banzetta/droplight/mixin/EntityMixin": {
+        "getBoundingBoxForCulling": "Lnet/minecraft/class_1297;method_5830()Lnet/minecraft/class_238;",
+        "spawnAtLocation(Lnet/minecraft/world/item/ItemStack;F)Lnet/minecraft/world/entity/item/ItemEntity;": "Lnet/minecraft/class_1297;method_5699(Lnet/minecraft/class_1799;F)Lnet/minecraft/class_1542;"
+      }
+    }
+  }
+}

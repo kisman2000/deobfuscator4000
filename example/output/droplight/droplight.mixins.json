@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "package": "dev.banzetta.droplight.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "EntityMixin"
+  ],
+  "client": [
+    "client.EntityMixin",
+    "client.EntityRendererMixin",
+    "client.ItemEntityRendererMixin",
+    "client.LevelRendererMixin",
+    "client.ParticleEngineMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8.5",
+  "target": "@env(DEFAULT)",
+  "refmap": "Droplight-1.19.2-fabric-refmap.json"
+}

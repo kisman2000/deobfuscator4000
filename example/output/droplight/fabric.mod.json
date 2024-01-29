@@ -1,0 +1,46 @@
+{
+	"schemaVersion": 1,
+	"id": "droplight",
+	"version": "1.0.5",
+
+	"name": "Droplight",
+	"description": "Enhances the item-dropping experience.",
+	"authors": [ "Banzetta" ],
+
+	"contact": { "homepage": "https://www.curseforge.com/minecraft/mc-mods/droplight" },
+	"license": "All rights reserved",
+	"icon": "icon.png",
+
+	"environment": "*",
+	"entrypoints": {
+		"main": [ "dev.banzetta.droplight.Droplight" ],
+		"client": [ "dev.banzetta.droplight.DroplightClient" ]
+	},
+
+	"accessWidener": "droplight.accesswidener",
+	"mixins": [ "droplight.mixins.json" ],
+
+	"depends": {
+		"fabricloader": ">=0.14.0",
+		"fabric": "*",
+		"minecraft": ">=1.19",
+		"java": ">=17",
+		"prism": ">=1.0.3",
+		"iceberg": ">=1.0.46"
+	},
+	"suggests": {
+		"itemborders": ">=1.1.6"
+	},
+	"custom": {
+		"modupdater": {
+			"strategy": "curseforge",
+			"projectID": 665868,
+			"strict": false
+		},
+		"modmenu": {
+			"links": {
+				"modmenu.curseforge": "https://www.curseforge.com/minecraft/mc-mods/droplight"
+			}
+		}
+	}
+}
